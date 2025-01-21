@@ -1,0 +1,81 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: azure;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow: hidden;
+  color: white;
+}
+.main {
+  width: 100vw;
+  margin: 0px auto;
+  max-width: 800px;
+  min-height: 500px;
+  border: 2.5px solid gold;
+  background-color: rgb(220, 228, 220);
+  margin-top: 20px;
+  box-shadow: 5px 10px 8px 10px #1681ce;
+}
+.addSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.addInputbox {
+  max-width: 400px;
+  width: 100vw;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1em;
+}
+.addbtn {
+  margin-left: 10px;
+}
+
+li {
+  max-width: 600px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  height: auto;
+
+  background-color: rgb(48, 47, 47);
+  padding: 5px;
+}
+button {
+  width: 80px;
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+}
+.listDesc {
+  flex: 1;
+}
+.done {
+  background-color: green;
+  margin-right: 5px;
+}
+.del {
+  background-color: red;
+}
+@media screen and (max-width: 480px) {
+  .main {
+    overflow: hidden;
+  }
+  li {
+    margin-left: -45px;
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="logo.png" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="addSection">
+        <input
+          type="text"
+          name="add"
+          placeholder="Add your important..."
+          class="addInputbox"
+          id="work"
+        />
+        <img
+          src="plus.png"
+          alt="addbutton"
+          onclick="addwork()"
+          class="addbtn"
+        />
+      </div>
+
+      <ul class="listItem" id="listItem">
+        <!-- <li>
+          <span class="listDesc">Create a portfolio</span>
+          <button class="done">Done</button> <button class="del">Del</button>
+        </li> -->
+      </ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
